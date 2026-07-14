@@ -19,7 +19,7 @@ export function DashboardSidebar() {
   return (
     <aside className="shrink-0 border-b border-border bg-muted/30 p-3 sm:p-4 md:w-56 md:border-r md:border-b-0">
       <Link href="/" className="mb-3 hidden md:mb-6 md:block">
-        <Image src="/pawade-logo.svg" alt="Ashish Pawade" width={380} height={300} className="h-10 w-auto" />
+        <Image src="/pawade-logo.svg" alt="Ashish Pawade" width={380} height={300} className="h-16 w-auto" />
       </Link>
       <nav className="flex gap-1 overflow-x-auto md:flex-col md:space-y-1 md:overflow-visible">
         {modules.map((m) => {
