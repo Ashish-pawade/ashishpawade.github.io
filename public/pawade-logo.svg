@@ -1,0 +1,14 @@
+<svg width="380" height="300" viewBox="0 0 380 300" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Hexagon cyber logo for Ashish Shivajirao Pawade</title>
+<desc>A hexagon security mark with initials, binary and circuit accents.</desc>
+<polygon points="190,45 275,95 275,185 190,235 105,185 105,95" fill="#0e1a24"/>
+<polygon points="190,45 275,95 275,185 190,235 105,185 105,95" fill="none" stroke="#5de0c4" stroke-width="2"/>
+<polygon points="190,62 261,103 261,177 190,218 119,177 119,103" fill="none" stroke="#2f4a52" stroke-width="1"/>
+<text x="190" y="158" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="52" font-weight="700" letter-spacing="1" fill="#f0faf7">ASP</text>
+<text x="190" y="182" text-anchor="middle" font-family="'Consolas', monospace" font-size="11" letter-spacing="3" fill="#5de0c4">01000001 01010011 01010000</text>
+<line x1="105" y1="140" x2="80" y2="140" stroke="#5de0c4" stroke-width="1.5"/>
+<circle cx="80" cy="140" r="3" fill="#5de0c4"/>
+<line x1="275" y1="140" x2="300" y2="140" stroke="#5de0c4" stroke-width="1.5"/>
+<circle cx="300" cy="140" r="3" fill="#5de0c4"/>
+<text x="190" y="272" text-anchor="middle" font-family="'Gill Sans', sans-serif" font-size="22" letter-spacing="2" fill="#f0faf7">Ashish Shivajirao Pawade</text>
+</svg>

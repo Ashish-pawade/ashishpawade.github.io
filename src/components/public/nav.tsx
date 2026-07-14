@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -13,9 +14,8 @@ export function PublicNav() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-slate-950/90 backdrop-blur">
       <div className="mx-auto flex h-15 max-w-5xl items-center justify-between px-6">
-        <Link href="/" className="font-mono text-sm text-blue-400">
-          ashish<span className="text-slate-500">@</span>pawade
-          <span className="text-slate-500">:~$</span>
+        <Link href="/" className="flex items-center">
+          <Image src="/pawade-logo.svg" alt="Ashish Pawade" width={380} height={300} className="h-9 w-auto" priority />
         </Link>
 
         <nav className="hidden gap-8 md:flex">
