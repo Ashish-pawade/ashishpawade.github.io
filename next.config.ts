@@ -27,6 +27,11 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  // nodeMiddleware is a real, recognized experimental flag in this Next.js build
+  // (confirmed in the build's "Experiments" log), but its .d.ts hasn't been updated yet.
+  experimental: {
+    nodeMiddleware: true,
+  } as NextConfig["experimental"],
   async headers() {
     return [
       {
